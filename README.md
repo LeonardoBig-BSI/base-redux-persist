@@ -21,5 +21,3 @@ npm install
 <img src="https://cdn.simpleicons.org/redux/764ABC" alt="Redux" width="40" height="40"/>
 
 <br /> <br />
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LeonardoBig-BSI&layout=compact)
