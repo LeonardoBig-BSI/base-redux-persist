@@ -1,0 +1,79 @@
+.container{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+
+.content{
+  margin: 24px 0;
+}
+
+.address{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  margin: 14px 4px;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.input{
+  height: 40px;
+  border-radius: 8px;
+  border:1px solid #ccc;
+  background-color: #F2F2F2;
+  padding: 0 14px;
+  font-size: 16px;
+}
+
+.button{
+  width: 15%;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 8px;
+  border-radius: 8px;
+  border:0;
+  color: #FFF;
+  background-color: #3366FF;
+  padding: 0 14px;
+  font-size: 16px;
+}
+
+.deleteButton {
+  margin-left: 16px;
+  padding: 8px 14px;
+  background-color: red;
+  color: #FFF;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  transition: background-color 0.5s;
+}
+
+.deleteButton:hover {
+  background-color: #aa2222;
+  color: #FFF;
+}
+
+.link{
+  padding: 8px 14px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #278142;
+  color: #FFF;
+  transition: background-color 0.5s;
+}
+.link:hover{
+  background-color: #333333;
+  color: #FFF;
+}
+
+@media (max-width: 768px) {
+  .button {
+    width: 80%; 
+    height: 50px;  
+    font-size: 18px;
+  }
+}

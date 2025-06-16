@@ -1,0 +1,87 @@
+.container{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+
+
+.message{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  margin: 0 4px;
+  border-radius: 4px;;
+}
+
+.title{
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+
+.h2 {
+  margin-top: 32px;
+}
+
+.address{
+  display: flex;
+}
+
+.addressLabel{
+  margin-top: 24px;
+}
+
+.address button{
+  margin-left: 14px;
+  border: 0;
+  border-radius: 4px;
+  color: #D60E0E;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.address p{
+  margin-top: 8px;
+}
+
+.buttonSearch {
+  width: 15%;
+  height: 40px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border:0;
+  color: #FFF;
+  background-color: #3366FF;
+  padding: 0 14px;
+  font-size: 16px;
+}
+
+.buttonSearchId {
+  width: 20%;
+  height: 40px;
+  margin-top: 24px;
+  border-radius: 8px;
+  border:0;
+  color: #FFF;
+  background-color: #3366FF;
+  padding: 0 14px;
+  font-size: 16px;
+}
+
+.nav{
+  margin:  14px 4px;
+  display: flex;
+  gap: 14px;
+}
+
+.link{
+  padding: 4px 14px;
+  border-radius: 4px;
+  background-color: #e9e9e9;
+  transition: background-color 0.5s;
+}
+.link:hover{
+  background-color: #333333;
+  color: #FFF;
+}
