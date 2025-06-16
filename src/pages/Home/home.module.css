@@ -57,7 +57,7 @@
   font-size: 16px;
 }
 
-.buttonSearchId {
+.buttonSearchById {
   width: 20%;
   height: 40px;
   margin-top: 24px;
@@ -84,4 +84,18 @@
 .link:hover{
   background-color: #333333;
   color: #FFF;
+}
+
+@media (max-width: 768px) {
+  .buttonSearch {
+    width: 80%; 
+    height: 50px;  
+    font-size: 18px;
+  }
+
+  .buttonSearchById {
+    width: 80%; 
+    height: 50px;  
+    font-size: 18px;
+  }
 }

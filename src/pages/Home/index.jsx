@@ -79,7 +79,7 @@ export function Home() {
               </div>
             ))}
 
-            <button onClick={handleFetchUserById} className={styles.buttonSearchId}>Buscar usuário com ID</button>
+            <button onClick={handleFetchUserById} className={styles.buttonSearchById}>Buscar usuário pelo ID</button>
 
             {loading && <strong style={{ marginTop: '8px' }}>Carregando usuário pelo ID {users.id}...</strong>}
 
